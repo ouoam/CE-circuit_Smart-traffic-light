@@ -9,30 +9,41 @@
 #define WIFI_SSID "TP-LINK_B3D1F6"
 #define WIFI_PASSWORD "20818043"
 
-void setup() {
+unsigned long long last = 0;
+
+void setup()
+{
   Serial.begin(9600);
 
   // connect to wifi.
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
-  while (WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED)
+  {
     Serial.print(".");
     delay(500);
   }
   Serial.println();
   Serial.print("connected: ");
   Serial.println(WiFi.localIP());
-  
+
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+
+  last = millis();
 }
 
-void loop() {
-  Firebase.setInt("road/1", 50);
-  if (Firebase.failed()) {
+void loop()
+{
+  if (millis() >= last)
+  {
+    Firebase.setInt("road/0", millis());
+    if (Firebase.failed())
+    {
       Serial.print("setting1 /number failed:");
-      Serial.println(Firebase.error());  
+      Serial.println(Firebase.error());
       return;
+    }
+    Serial.println("SAVE");
+    last += 1000;
   }
-  Serial.println("SAVE");
-  delay(10000);
 }
