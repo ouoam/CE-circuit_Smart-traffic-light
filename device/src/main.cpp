@@ -43,16 +43,11 @@ BYTES_VAL_T read_shift_regs()
 
 void display_pin_values()
 {
-  char a[40];
   for (int i = 0; i < DATA_WIDTH; i++)
   {
-    a[i] = ((pinValues >> i) & 1) + '0';
     Serial.print((pinValues >> i) & 1);
   }
-  Serial.print("\r\n");
-
-  a[32] = 0;
-  Firebase.setString("DEBUG/road", a);
+  Serial.println();
   Firebase.setInt("data/road", pinValues);
 }
 
@@ -60,18 +55,18 @@ void setup()
 {
   Serial.begin(9600);
 
-  /* Initialize our digital pins...
-    */
+  // start ----- 74HC595 ------
   pinMode(ploadPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, INPUT);
 
   digitalWrite(clockPin, LOW);
   digitalWrite(ploadPin, HIGH);
+  // end ----- 74HC595 ------
 
   pinMode(D1, OUTPUT);
 
-  // connect to wifi.
+  // start ----- wifi -----
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("connecting");
   while (WiFi.status() != WL_CONNECTED)
@@ -82,9 +77,12 @@ void setup()
   Serial.println();
   Serial.print("connected: ");
   Serial.println(WiFi.localIP());
+  // end ----- wifi -----
 
+  // start ----- firebase -----
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
   Firebase.stream("control");
+  // end ----- firebase -----
 
   pinValues = read_shift_regs();
   display_pin_values();
@@ -93,17 +91,11 @@ void setup()
 
 void loop()
 {
+  // start ----- firebase -----
   if (Firebase.failed())
   {
     Serial.println("Firebase error");
     Serial.println(Firebase.error());
-  }
-
-  pinValues = read_shift_regs();
-  if (pinValues != oldPinValues)
-  {
-    display_pin_values();
-    oldPinValues = pinValues;
   }
 
   if (Firebase.available())
@@ -126,5 +118,13 @@ void loop()
         digitalWrite(D1, event.getBool("data"));
       }
     }
+  }
+  // end ------ firebase -----
+
+  pinValues = read_shift_regs();
+  if (pinValues != oldPinValues)
+  {
+    display_pin_values();
+    oldPinValues = pinValues;
   }
 }
