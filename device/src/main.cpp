@@ -22,6 +22,8 @@ void setup()
     pinMode(D1, OUTPUT);
 }
 
+int old = 0;
+
 void loop()
 {
     if (road.isChange())
@@ -35,7 +37,14 @@ void loop()
         digitalWrite(D1, cloud.getSiren());
         traffic.setSpecial(cloud.getSiren());
         traffic.setRoadLight(cloud.getLight());
+        Serial.println(road.get());
     }
 
     light.setLight(traffic.getLights(road.get()));
+
+    if (old != traffic.getLights())
+    {
+        Serial.println(traffic.getLights());
+        old = traffic.getLights();
+    }
 }
