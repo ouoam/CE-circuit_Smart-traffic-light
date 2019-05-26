@@ -9,14 +9,22 @@
 </template>
 
 <script>
+import { db } from "./../plugins/firebase";
+
 export default {
   data: () => ({
     data: {
       road: 0
     }
   }),
+  mounted() {
+    db.ref("data/road").on("value", snapshot => {
+      this.data.road = snapshot.val();
+    });
+  },
   watch: {
     "data.road"(val) {
+      if (val < 0) val += Math.pow(2, 32);
       var bit = parseInt(val, 10)
         .toString(2)
         .padStart(32, "0");
