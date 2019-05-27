@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   width="700mm"
+   height="700mm"
+   version="1.1"
+   viewBox="0 0 700 700"
+   sodipodi:docname="road.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata82">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs80" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview78"
+     showgrid="false"
+     inkscape:zoom="0.17840476"
+     inkscape:cx="304.76846"
+     inkscape:cy="1568.5656"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <g
+     transform="translate(350,350)"
+     fill="#999"
+     id="g75">
+    <rect
+       x="-30"
+       y="-30"
+       width="60"
+       height="60"
+       id="rect2" />
+    <g
+       transform="rotate(90)"
+       id="g20">
+      <rect
+         id="Road-0-0"
+         x="-350"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-1"
+         x="-310"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-2"
+         x="-270"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-3"
+         x="-230"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-4"
+         x="-190"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-5"
+         x="-150"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-6"
+         x="-110"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-0-7"
+         x="-70"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         x="-350"
+         width="320"
+         height="30"
+         id="rect12" />
+      <g
+         fill="none"
+         stroke="#000"
+         stroke-width="1.5"
+         id="g18">
+        <path
+           d="m-350-0h320"
+           id="path14" />
+        <path
+           d="m-30-0v-30"
+           id="path16" />
+      </g>
+    </g>
+    <g
+       id="g37">
+      <rect
+         id="Road-1-0"
+         x="-350"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-1"
+         x="-310"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-2"
+         x="-270"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-3"
+         x="-230"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-4"
+         x="-190"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-5"
+         x="-150"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-6"
+         x="-110"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-1-7"
+         x="-70"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="rect4581"
+         x="-350"
+         width="320"
+         height="30" />
+      <g
+         fill="none"
+         stroke="#000"
+         stroke-width="1.5"
+         id="g35">
+        <path
+           d="m-350-0h320"
+           id="path31" />
+        <path
+           d="m-30-0v-30"
+           id="path33" />
+      </g>
+    </g>
+    <g
+       transform="rotate(-90)"
+       id="g55">
+      <rect
+         id="Road-2-0"
+         x="-350"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-1"
+         x="-310"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-2"
+         x="-270"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-3"
+         x="-230"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-4"
+         x="-190"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-5"
+         x="-150"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-6"
+         x="-110"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-2-7"
+         x="-70"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         x="-350"
+         width="320"
+         height="30"
+         id="rect47" />
+      <g
+         fill="none"
+         stroke="#000"
+         stroke-width="1.5"
+         id="g53">
+        <path
+           d="m-350-0h320"
+           id="path49" />
+        <path
+           d="m-30-0v-30"
+           id="path51" />
+      </g>
+    </g>
+    <g
+       transform="rotate(180)"
+       id="g73">
+      <rect
+         id="Road-3-0"
+         x="-350"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-1"
+         x="-310"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-2"
+         x="-270"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-3"
+         x="-230"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-4"
+         x="-190"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-5"
+         x="-150"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-6"
+         x="-110"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         id="Road-3-7"
+         x="-70"
+         y="-30"
+         width="40"
+         height="30" />
+      <rect
+         x="-350"
+         width="320"
+         height="30"
+         id="rect65" />
+      <g
+         fill="none"
+         stroke="#000"
+         stroke-width="1.5"
+         id="g71">
+        <path
+           d="m-350-0h320"
+           id="path67" />
+        <path
+           d="m-30-0v-30"
+           id="path69" />
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+     x="534.91443"
+     y="205.05612"
+     id="text4594"><tspan
+       sodipodi:role="line"
+       id="tspan4592"
+       x="534.91443"
+       y="205.05612"
+       style="font-size:70.55555725px;stroke-width:0.26458335">N</tspan></text>
+  <rect
+     style="fill:#000000;stroke:none;stroke-width:1.20545638;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;fill-opacity:1"
+     id="rect4596"
+     width="16.254467"
+     height="60.82317"
+     x="550.5545"
+     y="77.611206" />
+  <path
+     sodipodi:type="star"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="path4602"
+     sodipodi:sides="3"
+     sodipodi:cx="555.40253"
+     sodipodi:cy="10.195973"
+     sodipodi:r1="46.171497"
+     sodipodi:r2="23.085749"
+     sodipodi:arg1="0.52113814"
+     sodipodi:arg2="1.5683357"
+     inkscape:flatsided="false"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 595.4449,33.183262 -39.98557,0.09839 -39.98557,0.09839 19.90758,-34.6777131 19.90758,-34.6777129 20.07799,34.5793231 z"
+     inkscape:transform-center-x="-0.039159371"
+     inkscape:transform-center-y="-7.3462328"
+     transform="matrix(0.68937415,0,0,0.63915608,175.65971,68.721633)" />
+</svg>

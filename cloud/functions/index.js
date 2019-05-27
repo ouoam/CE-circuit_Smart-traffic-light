@@ -48,8 +48,8 @@ exports.makeUppercase = functions.database.ref("/data/road").onUpdate(snapshot =
       time["3"] = snapshot.val()["3"] ? snapshot.val()["3"] : time["3"];
 
       for (var i = 0; i < 4; i++) {
-        if (dir[i] >= 5 && time[i] + 5000 < Date.now()) {
-          notifyLine("ขนะนี้การจรจารฝั่งขาเข้าสี่แยกทางทิศ" + ["เหนือ", "ตะวันตก", "ใต้", "ตะวันออก"][i] + "หนาแน่น");
+        if (dir[i] >= 5 && time[i] + 10000 < Date.now()) {
+          notifyLine("ขณะนี้การจรจารฝั่งขาเข้าสี่แยกทางทิศ" + ["เหนือ", "ตะวันตก", "ใต้", "ตะวันออก"][i] + "หนาแน่น");
           firebase
             .database()
             .ref("time/" + i)
@@ -68,7 +68,7 @@ const notifyLine = (lineMessage, stkPkgId, stkId) => {
     uri: `https://notify-api.line.me/api/notify`,
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
-      Authorization: `Bearer h01GanbhXTkIcBT9DGWg4nTIzwxnNcn9NbjcwJG0PS2`
+      Authorization: `Bearer O5UbGYgOBqPVuLjFs1CYUDW8Bek7a37VKqx8jDFbVE7`
     },
     form: {
       message: lineMessage,
